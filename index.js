@@ -10,12 +10,12 @@ var Image2 = document.querySelectorAll("img")[1].setAttribute("src", randomImage
 
 if (randomNumber1 > randomNumber2)
 {
-  document.querySelectorAll("h1")[1].textContent = "Player 2, you suck 🥱";
+  document.querySelector("h1").textContent = "Player 2, you suck 🥱";
 }
 else if (randomNumber1 == randomNumber2) {
-  document.querySelectorAll("h1")[1].textContent = "Wow what are the odds! (like 1/36)";
+  document.querySelector("h1").textContent = "Wow what are the odds! (like 1/36)";
 }
 
 else {
-    document.querySelectorAll("h1")[1].textContent = "Player 1, you suck 🥱";
+    document.querySelector("h1").textContent = "Player 1, you suck 🥱";
 }
